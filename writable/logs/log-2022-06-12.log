@@ -1,0 +1,78 @@
+CRITICAL - 2022-06-12 00:55:45 --> Call to a member function update() on array
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Facturas_controller->crear_factura('4')
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-12 00:56:37 --> Cannot add or update a child row: a foreign key constraint fails (`alegre_sebastian`.`factura_producto`, CONSTRAINT `factura_producto_ibfk_1` FOREIGN KEY (`factura_id`) REFERENCES `factura_cabecera` (`id`))
+CRITICAL - 2022-06-12 00:56:37 --> Cannot add or update a child row: a foreign key constraint fails (`alegre_sebastian`.`factura_producto`, CONSTRAINT `factura_producto_ibfk_1` FOREIGN KEY (`factura_id`) REFERENCES `factura_cabecera` (`id`))
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fa...', 0)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Facturas_controller.php(41): CodeIgniter\BaseModel->save(Array)
+#9 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Facturas_controller->crear_factura('4')
+#10 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas_controller))
+#11 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-12 01:02:01 --> date() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', 'D:\\XAMPP\\htdocs...', 18, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Facturas_controller.php(18): date()
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Facturas_controller->crear_factura('4')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas_controller))
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-12 03:08:20 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-06-12 03:15:02 --> Unknown column 'factura_id' in 'where clause'
+CRITICAL - 2022-06-12 03:15:02 --> Unknown column 'factura_id' in 'where clause'
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Views\facturas.php(90): CodeIgniter\BaseModel->first()
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('facturas', Array, true)
+#10 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(106): view('facturas')
+#11 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->facturas()
+#12 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-06-12 03:30:55 --> syntax error, unexpected 'else' (T_ELSE)
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('facturas', Array, true)
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(106): view('facturas')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->facturas()
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 03:32:45 --> syntax error, unexpected '<'
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('facturas', Array, true)
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(106): view('facturas')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->facturas()
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 21:41:41 --> syntax error, unexpected 'else' (T_ELSE)
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(122): view('productos')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->productos()
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

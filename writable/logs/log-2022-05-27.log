@@ -1,0 +1,149 @@
+CRITICAL - 2022-05-27 13:11:53 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('6')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 13:14:07 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('6')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 13:15:00 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('6')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 13:16:13 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 13:21:32 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 13:23:51 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(83): view('CRUD-Usuarios')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 13:24:15 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('6')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 13:24:19 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('1')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 13:26:32 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('6')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 13:26:57 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('6')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 13:27:12 --> Undefined variable: userModel
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Usuarios_controller.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('6')
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 13:27:31 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('modificar', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Usuarios_controller.php(15): view('modificar', Array)
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('6')
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 13:29:36 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('modificar', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Usuarios_controller.php(15): view('modificar', Array)
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('6')
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 13:30:31 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('modificar', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Usuarios_controller.php(15): view('modificar', Array)
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('6')
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 13:31:15 --> Undefined index: passconf
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\app\Views\modificar.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('modificar', Array, true)
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Usuarios_controller.php(15): view('modificar', Array)
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('6')
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 13:33:33 --> Undefined variable: usuario_buscar
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\app\Views\modificar.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('modificar', Array, true)
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Usuarios_controller.php(19): view('modificar', Array)
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('6')
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 13:39:19 --> syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(81): view('head', Array)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 13:45:41 --> syntax error, unexpected 'nombre' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('modificar', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Usuarios_controller.php(19): view('modificar', Array)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('6')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 14:09:47 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('modificar', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Usuarios_controller.php(19): view('modificar', Array)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('6')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,28 @@
+CRITICAL - 2022-05-25 13:58:04 --> Call to a member function where() on null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('1')
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 13:58:20 --> Call to a member function get() on null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('modificar', Array, true)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Usuarios_controller.php(12): view('modificar')
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('1')
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 13:58:34 --> Call to a member function where() on null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('2')
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 15:33:53 --> Call to a member function where() on null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->edit('1')
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

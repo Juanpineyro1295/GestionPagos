@@ -1,0 +1,499 @@
+CRITICAL - 2022-05-20 13:13:24 --> Cannot redeclare App\Controllers\Home::registrarse()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-20 13:13:31 --> Cannot redeclare App\Controllers\Home::registrarse()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-20 13:13:35 --> Cannot redeclare App\Controllers\Home::registrarse()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-20 13:14:01 --> Cannot redeclare App\Controllers\Home::registrarse()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-20 13:14:57 --> Class 'App\Models\UserModel' not found
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 13:16:23 --> Class 'App\Models\UserModel' not found
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 13:16:54 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 13:28:09 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 13:30:46 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(58): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:31:00 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(12): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:31:14 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(12): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:32:19 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(58): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:32:19 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(58): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:32:20 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(58): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:32:20 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(58): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:32:20 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(58): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:32:20 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(58): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:34:03 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(58): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:34:14 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(58): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:34:14 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(58): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:34:15 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(58): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:34:15 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(58): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:34:15 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(58): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:34:15 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(58): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 13:35:19 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 13:36:03 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 13:36:17 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 13:36:23 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 13:44:10 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 13:49:20 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 13:49:36 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 13:49:40 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 13:49:51 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 13:50:09 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 13:50:13 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 13:59:14 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 14:11:58 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(75): view('dashboard')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 14:14:08 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(75): view('dashboard')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 14:25:26 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(75): view('dashboard')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 14:28:05 --> Call to a member function userdata() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(75): view('dashboard')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 14:28:05 --> Call to a member function userdata() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(75): view('dashboard')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 14:31:46 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 14:32:03 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(75): view('dashboard')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 14:34:06 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 14:36:07 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 14:42:26 --> Class 'Config\AuthGuard' not found
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Dashboard', 'before')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-20 14:42:31 --> Class 'Config\AuthGuard' not found
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Dashboard', 'before')
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-20 14:49:16 --> syntax error, unexpected '.'
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(75): view('dashboard')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 15:02:35 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(74): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 15:02:55 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(58): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 15:02:55 --> syntax error, unexpected '$nombre' (T_VARIABLE)
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(74): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 15:03:23 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(75): view('dashboard')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 15:03:28 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(75): view('dashboard')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 15:03:30 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(75): view('dashboard')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 15:04:58 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(74): view('menu')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 15:05:04 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(74): view('menu')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 15:05:04 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(74): view('menu')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 15:12:47 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-20 15:12:48 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-20 15:12:52 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(74): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 15:12:53 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(74): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 15:12:53 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(74): view('menu')
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 15:23:32 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(75): view('dashboard')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 15:25:32 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(75): view('dashboard')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 15:25:32 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(75): view('dashboard')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

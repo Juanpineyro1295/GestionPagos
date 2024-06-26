@@ -1,0 +1,32 @@
+CRITICAL - 2023-05-03 17:35:45 --> Undefined variable: usuario_buscar
+#0 D:\XAMPP\htdocs\GestionPagos\app\Views\crear-cuenta.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 67, Array)
+#1 D:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('crear-cuenta', Array, true)
+#4 D:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(12): view('crear-cuenta')
+#5 D:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 D:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-03 18:15:57 --> syntax error, unexpected ''is_unique'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\XAMPP\htdocs\GestionPagos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\XAMPP\\htdocs...')
+#1 D:\XAMPP\htdocs\GestionPagos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-03 19:24:29 --> Trying to get property 'num_rows' of non-object
+#0 D:\XAMPP\htdocs\GestionPagos\app\Views\CRUD-Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\XAMPP\\htdocs...', 45, Array)
+#1 D:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#4 D:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(81): view('CRUD-Usuarios')
+#5 D:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#6 D:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

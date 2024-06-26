@@ -1,0 +1,227 @@
+CRITICAL - 2022-06-01 21:14:02 --> Trying to get property 'num_rows' of non-object
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Views\CRUD-Productos.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\XAMPP\\htdocs...', 44, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Productos', Array, true)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(91): view('CRUD-Productos')
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->crud_productos()
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 22:02:37 --> Undefined variable: imagen
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Productos_controller.php(230): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 230, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->formValidation()
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 22:03:00 --> Call to a member function getRandomName() on null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->formValidation()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-01 22:03:21 --> Call to a member function getRandomName() on string
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->formValidation()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-01 22:03:39 --> Call to undefined function App\Controllers\getRandomName()
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->formValidation()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-01 22:03:57 --> Undefined variable: fileName
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Productos_controller.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 231, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->formValidation()
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 22:05:57 --> Call to a member function getRandomName() on null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->formValidation()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-01 22:09:28 --> Call to a member function move() on null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->formValidation()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-01 22:09:44 --> Call to a member function move() on null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->formValidation()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-01 22:10:23 --> Call to a member function move() on null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->formValidation()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-01 22:10:50 --> Call to a member function move() on null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->formValidation()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-01 22:11:32 --> Call to a member function move() on null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->formValidation()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-01 22:14:23 --> Call to a member function move() on null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->formValidation()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-01 22:17:41 --> Call to a member function move() on null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->formValidation()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-01 22:32:28 -->  is not a valid rule.
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', NULL, Array, Array)
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Productos_controller.php(178): CodeIgniter\Controller->validate(Array)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->formValidation()
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 22:32:58 --> syntax error, unexpected ')', expecting ']'
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\XAMPP\\htdocs...')
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 22:34:35 --> Undefined index: nombre
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Views\CRUD-Productos.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\XAMPP\\htdocs...', 120, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Productos', Array, true)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(91): view('CRUD-Productos')
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->crud_productos()
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 23:18:33 --> syntax error, unexpected ''.'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Productos', Array, true)
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(91): view('CRUD-Productos')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->crud_productos()
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 23:19:06 --> syntax error, unexpected ''.'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Productos', Array, true)
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(91): view('CRUD-Productos')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->crud_productos()
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 23:19:07 --> syntax error, unexpected ''.'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Productos', Array, true)
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(91): view('CRUD-Productos')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->crud_productos()
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 23:20:15 --> syntax error, unexpected ''.'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Productos', Array, true)
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(91): view('CRUD-Productos')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->crud_productos()
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 23:22:45 --> syntax error, unexpected '.', expecting ')'
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Productos', Array, true)
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(91): view('CRUD-Productos')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->crud_productos()
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 23:24:05 --> mime_content_type(D:\XAMPP\htdocs\AlegreSebastian_prueba\writable\public/assets/uploads1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'D:\\XAMPP\\htdocs...', 124, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Views\CRUD-Productos.php(124): mime_content_type('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Productos', Array, true)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(91): view('CRUD-Productos')
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->crud_productos()
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-01 23:24:15 --> mime_content_type(D:\XAMPP\htdocs\AlegreSebastian_prueba\public/assets/uploads1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'D:\\XAMPP\\htdocs...', 124, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Views\CRUD-Productos.php(124): mime_content_type('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Productos', Array, true)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(91): view('CRUD-Productos')
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->crud_productos()
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-01 23:24:44 --> mime_content_type(D:\XAMPP\htdocs\AlegreSebastian_prueba\public\assets\uploads1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'D:\\XAMPP\\htdocs...', 124, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Views\CRUD-Productos.php(124): mime_content_type('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Productos', Array, true)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(91): view('CRUD-Productos')
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->crud_productos()
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-01 23:25:16 --> mime_content_type(D:\XAMPP\htdocs\AlegreSebastian_prueba\public/assets/uploads/1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'D:\\XAMPP\\htdocs...', 124, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Views\CRUD-Productos.php(124): mime_content_type('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Productos', Array, true)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(91): view('CRUD-Productos')
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->crud_productos()
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-01 23:26:37 --> mime_content_type(D:\XAMPP\htdocs\AlegreSebastian_prueba\public/assets/uploads/PRUEBA.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'D:\\XAMPP\\htdocs...', 124, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Views\CRUD-Productos.php(124): mime_content_type('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Productos', Array, true)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(91): view('CRUD-Productos')
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->crud_productos()
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

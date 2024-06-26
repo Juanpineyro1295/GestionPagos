@@ -1,0 +1,220 @@
+CRITICAL - 2022-06-11 18:36:12 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Carrito_controller.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 38, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carrito_add()
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-11 18:49:35 --> Undefined index: id
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Carrito_controller.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\XAMPP\\htdocs...', 17, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carrito_add('1')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-11 18:49:52 --> Call to a member function update() on array
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carrito_add('1')
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-11 22:12:16 --> Class 'App\Models\Factura_cabecera_model' not found
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Facturas_controller->crear_factura('4')
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas_controller))
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-11 22:13:43 --> Trying to get property 'id' of non-object
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Facturas_controller.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\XAMPP\\htdocs...', 21, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Facturas_controller->crear_factura('4')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas_controller))
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-11 22:14:18 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Facturas_controller.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 21, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Facturas_controller->crear_factura('4')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas_controller))
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-11 22:15:27 --> Unknown column 'factura_id' in 'field list'
+CRITICAL - 2022-06-11 22:15:27 --> Unknown column 'factura_id' in 'field list'
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Fa...', 0)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Fa...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Fa...')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Fa...', Array, false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Facturas_controller.php(34): CodeIgniter\BaseModel->save(Array)
+#9 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Facturas_controller->crear_factura('4')
+#10 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas_controller))
+#11 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-11 22:17:42 --> Cannot add or update a child row: a foreign key constraint fails (`alegre_sebastian`.`factura_producto`, CONSTRAINT `factura_producto_ibfk_1` FOREIGN KEY (`factura_id`) REFERENCES `factura_cabecera` (`id`))
+CRITICAL - 2022-06-11 22:17:42 --> Cannot add or update a child row: a foreign key constraint fails (`alegre_sebastian`.`factura_producto`, CONSTRAINT `factura_producto_ibfk_1` FOREIGN KEY (`factura_id`) REFERENCES `factura_cabecera` (`id`))
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fa...', 0)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Facturas_controller.php(34): CodeIgniter\BaseModel->save(Array)
+#9 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Facturas_controller->crear_factura('4')
+#10 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas_controller))
+#11 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-11 22:30:51 --> Column 'fecha' cannot be null
+CRITICAL - 2022-06-11 22:30:51 --> Column 'fecha' cannot be null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fa...', 0)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Facturas_controller.php(29): CodeIgniter\BaseModel->save(Array)
+#9 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Facturas_controller->crear_factura('4')
+#10 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas_controller))
+#11 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-11 22:51:57 --> Column 'fecha' cannot be null
+CRITICAL - 2022-06-11 22:51:57 --> Column 'fecha' cannot be null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fa...', 0)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Facturas_controller.php(29): CodeIgniter\BaseModel->save(Array)
+#9 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Facturas_controller->crear_factura('4')
+#10 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas_controller))
+#11 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-11 22:52:36 --> Column 'fecha' cannot be null
+CRITICAL - 2022-06-11 22:52:36 --> Column 'fecha' cannot be null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fa...', 0)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Facturas_controller.php(29): CodeIgniter\BaseModel->save(Array)
+#9 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Facturas_controller->crear_factura('4')
+#10 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas_controller))
+#11 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-11 22:53:08 --> Column 'fecha' cannot be null
+CRITICAL - 2022-06-11 22:53:08 --> Column 'fecha' cannot be null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fa...', 0)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Facturas_controller.php(29): CodeIgniter\BaseModel->save(Array)
+#9 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Facturas_controller->crear_factura('4')
+#10 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas_controller))
+#11 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-11 22:54:03 --> Column 'fecha' cannot be null
+CRITICAL - 2022-06-11 22:54:03 --> Column 'fecha' cannot be null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fa...', 0)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Facturas_controller.php(29): CodeIgniter\BaseModel->save(Array)
+#9 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Facturas_controller->crear_factura('4')
+#10 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas_controller))
+#11 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-11 22:54:57 --> Column 'fecha' cannot be null
+CRITICAL - 2022-06-11 22:54:57 --> Column 'fecha' cannot be null
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fa...', 0)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Facturas_controller.php(29): CodeIgniter\BaseModel->save(Array)
+#9 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Facturas_controller->crear_factura('4')
+#10 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas_controller))
+#11 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-11 23:08:01 --> syntax error, unexpected 'use' (T_USE)
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\XAMPP\\htdocs...')
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-11 23:16:35 --> Trying to get property 'stock' of non-object
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Views\productos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\XAMPP\\htdocs...', 37, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Productos_controller.php(19): view('productos', Array)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->filtrar('1')
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 23:17:00 --> Trying to get property 'precio' of non-object
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Views\productos.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\XAMPP\\htdocs...', 47, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Productos_controller.php(19): view('productos', Array)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->filtrar('2')
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 23:17:14 --> Trying to get property 'id' of non-object
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Views\productos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\XAMPP\\htdocs...', 48, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Productos_controller.php(19): view('productos', Array)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->filtrar('1')
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 23:19:47 --> syntax error, unexpected '}', expecting ';' or ','
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Productos', Array, true)
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(98): view('CRUD-Productos')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->crud_productos()
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

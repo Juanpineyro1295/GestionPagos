@@ -1,0 +1,171 @@
+CRITICAL - 2023-06-01 16:22:59 --> Table 'gestiondepagos.usuarios' doesn't exist
+#0 C:\XAMPP\htdocs\GestionPagos\app\Views\CRUD-Usuarios.php(43): mysqli->query('SELECT id_usuar...')
+#1 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include('C:\\XAMPP\\htdocs...')
+#2 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#4 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(78): view('CRUD-Usuarios')
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#6 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-01 16:46:57 --> Cannot redeclare App\Controllers\Home::crud_usuarios()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-01 16:47:11 --> Cannot redeclare App\Controllers\Home::crud_usuarios()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-01 16:49:28 --> Table 'gestiondepagos.usuarios' doesn't exist
+#0 C:\XAMPP\htdocs\GestionPagos\app\Views\CRUD-Usuarios.php(51): mysqli->query('SELECT id_usuar...')
+#1 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include('C:\\XAMPP\\htdocs...')
+#2 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#4 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(18): view('CRUD-Usuarios')
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#6 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-01 16:56:25 --> syntax error, unexpected token "else"
+#0 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#2 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(18): view('CRUD-Usuarios')
+#3 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#4 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-01 16:56:57 --> Unclosed '{' on line 46
+#0 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#2 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(18): view('CRUD-Usuarios')
+#3 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#4 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-01 16:57:32 --> Unclosed '{' on line 150
+#0 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#2 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(18): view('CRUD-Usuarios')
+#3 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#4 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-01 16:57:52 --> Call to undefined method App\Models\Usuarios_model::getNumRows
+#0 C:\XAMPP\htdocs\GestionPagos\app\Views\CRUD-Usuarios.php(117): CodeIgniter\Model->__call('getNumRows', Array)
+#1 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include('C:\\XAMPP\\htdocs...')
+#2 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#4 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(18): view('CRUD-Usuarios')
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#6 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-01 17:07:23 --> syntax error, unexpected token "if"
+#0 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#2 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(18): view('CRUD-Usuarios')
+#3 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#4 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-01 17:07:33 --> Undefined variable $Usuarios_model
+#0 C:\XAMPP\htdocs\GestionPagos\app\Views\CRUD-Usuarios.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\XAMPP\\htdocs...', 118)
+#1 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include('C:\\XAMPP\\htdocs...')
+#2 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#4 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(18): view('CRUD-Usuarios')
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#6 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-01 17:07:42 --> Undefined variable $usuarios_model
+#0 C:\XAMPP\htdocs\GestionPagos\app\Views\CRUD-Usuarios.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\XAMPP\\htdocs...', 118)
+#1 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include('C:\\XAMPP\\htdocs...')
+#2 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#4 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(18): view('CRUD-Usuarios')
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#6 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-01 17:07:58 --> Call to a member function getNumRows() on array
+#0 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include()
+#1 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#3 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(18): view('CRUD-Usuarios')
+#4 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-01 17:12:46 --> Call to a member function countAllResults() on array
+#0 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include()
+#1 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#3 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(18): view('CRUD-Usuarios')
+#4 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-01 17:15:42 --> Call to a member function num_rows() on array
+#0 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include()
+#1 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#3 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(18): view('CRUD-Usuarios')
+#4 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-01 17:17:11 --> Undefined array key "baja"
+#0 C:\XAMPP\htdocs\GestionPagos\app\Views\CRUD-Usuarios.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\XAMPP\\htdocs...', 132)
+#1 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include('C:\\XAMPP\\htdocs...')
+#2 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#4 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(18): view('CRUD-Usuarios')
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#6 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-01 17:17:49 --> Undefined array key "id"
+#0 C:\XAMPP\htdocs\GestionPagos\app\Views\CRUD-Usuarios.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\XAMPP\\htdocs...', 137)
+#1 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include('C:\\XAMPP\\htdocs...')
+#2 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#4 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(18): view('CRUD-Usuarios')
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#6 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-01 17:18:05 --> Undefined array key "id"
+#0 C:\XAMPP\htdocs\GestionPagos\app\Views\CRUD-Usuarios.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\XAMPP\\htdocs...', 137)
+#1 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include('C:\\XAMPP\\htdocs...')
+#2 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#4 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(18): view('CRUD-Usuarios')
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#6 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-01 17:18:14 --> Undefined variable $conn
+#0 C:\XAMPP\htdocs\GestionPagos\app\Views\CRUD-Usuarios.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\XAMPP\\htdocs...', 163)
+#1 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include('C:\\XAMPP\\htdocs...')
+#2 C:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Usuarios', Array, true)
+#4 C:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(18): view('CRUD-Usuarios')
+#5 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_usuarios()
+#6 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,91 @@
+CRITICAL - 2022-06-06 11:23:56 --> Undefined index: imagen_ext
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Productos_controller.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\XAMPP\\htdocs...', 147, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->editValidation('1')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 12:26:46 --> Undefined variable: producto
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Productos_controller.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 143, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->editValidation('1')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 12:27:26 --> Undefined variable: producto
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Views\modificar-producto.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 23, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('modificar-produ...', Array, true)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Productos_controller.php(143): view('modificar-produ...', Array, Array)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->editValidation('1')
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 13:09:25 --> unlink(public/assets/uploads/13.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', 'D:\\XAMPP\\htdocs...', 147, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Productos_controller.php(147): unlink('public/assets/u...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->editValidation('13')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-06 13:10:33 --> unlink(public/assets/uploads/13.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', 'D:\\XAMPP\\htdocs...', 147, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Productos_controller.php(147): unlink('public/assets/u...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->editValidation('13')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-06 13:20:48 --> unlink(public/assets/uploads/15.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', 'D:\\XAMPP\\htdocs...', 147, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Productos_controller.php(147): unlink('public/assets/u...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Productos_controller->editValidation('15')
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-06 13:24:23 --> syntax error, unexpected '}'
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\XAMPP\\htdocs...')
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-06 13:43:50 --> Trying to get property 'descripcion' of non-object
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Views\productos.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\XAMPP\\htdocs...', 27, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(115): view('productos')
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->productos()
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 13:44:06 --> Undefined property: stdClass::$descripcion
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Views\productos.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 27, Array)
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(115): view('productos')
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->productos()
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 13:57:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::where()
+#0 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#3 D:\XAMPP\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(115): view('productos')
+#4 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->productos()
+#5 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\XAMPP\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

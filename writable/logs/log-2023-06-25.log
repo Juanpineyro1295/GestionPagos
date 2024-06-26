@@ -1,0 +1,22 @@
+CRITICAL - 2023-06-25 17:21:16 --> Undefined index: curso_habilitado
+#0 D:\XAMPP\htdocs\GestionPagos\app\Views\CRUD-Cursos.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\XAMPP\\htdocs...', 95, Array)
+#1 D:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Cursos', Array, true)
+#4 D:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(17): view('CRUD-Cursos')
+#5 D:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_cursos()
+#6 D:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-25 17:23:46 --> Undefined index: curso_habilitado
+#0 D:\XAMPP\htdocs\GestionPagos\app\Views\CRUD-Cursos.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\XAMPP\\htdocs...', 97, Array)
+#1 D:\XAMPP\htdocs\GestionPagos\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\GestionPagos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\GestionPagos\system\Common.php(1089): CodeIgniter\View\View->render('CRUD-Cursos', Array, true)
+#4 D:\XAMPP\htdocs\GestionPagos\app\Controllers\Home.php(17): view('CRUD-Cursos')
+#5 D:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(832): App\Controllers\Home->crud_cursos()
+#6 D:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\XAMPP\htdocs\GestionPagos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\GestionPagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

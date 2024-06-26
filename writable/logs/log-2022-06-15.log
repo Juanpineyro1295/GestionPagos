@@ -1,0 +1,17 @@
+CRITICAL - 2022-06-15 12:53:34 --> Undefined variable: data
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Usuarios_controller.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 154, Array)
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Usuarios_controller->editValidation('4')
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 13:38:01 --> Function name must be a string
+#0 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AlegreSebastian_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AlegreSebastian_prueba\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#3 C:\xampp\htdocs\AlegreSebastian_prueba\app\Controllers\Home.php(122): view('productos')
+#4 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(832): App\Controllers\Home->productos()
+#5 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AlegreSebastian_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AlegreSebastian_prueba\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
